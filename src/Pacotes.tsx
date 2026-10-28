@@ -9,15 +9,15 @@ export default function Pacote({pacote}: PacoteProps){
     return(
         <div className='Pacote'>
         <dt>id</dt>
-        <dd title ={pacote.id}>pacote.id.substring(0,8)</dd>
+        <dd title ={pacote.id}>{pacote.id.substring(0,8)}</dd>
         <dt>Largura (cm)</dt>
-        <dd>(pacote.largura)</dd>
+        <dd>{pacote.largura}</dd>
         <dt>Altura (cm)</dt>
-        <dd>(pacote.altura)</dd>
+        <dd>{pacote.altura}</dd>
         <dt>Profundidade (cm)</dt>
-        <dd>(pacote.profundidade)</dd>
+        <dd>{pacote.profundidade}</dd>
         <dt>Peso (kg)</dt>
-        <dd>(pacote.peso)</dd>
+        <dd>{pacote.peso}</dd>
         </div>
     )
 }
